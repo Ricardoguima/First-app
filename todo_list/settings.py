@@ -120,6 +120,8 @@ LOGIN_URL = 'login'
 
 STATIC_URL = 'static/'
 
+
+
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 if os.getcwd() == '/app':
@@ -128,7 +130,7 @@ if os.getcwd() == '/app':
     DATABASES['default'].update(db_from_venv)
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
-    ALLOWED_HOSTS = ['First-app.herokuapp.com']
+    ALLOWED_HOSTS = ['https://git.heroku.com/ricardoguima-todo.git']
     DEBUG = True
     
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
