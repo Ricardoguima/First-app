@@ -124,6 +124,7 @@ STATIC_URL = 'static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
+import os
 if os.getcwd() == '/app':
     import dj_database_url
     db_from_venv = dj_database_url.config(conn_max_age=500)
