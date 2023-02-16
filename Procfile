@@ -1,1 +1,1 @@
-web: gununicorn First-app.wsgi --log-file -
+web: gunicorn First-app.wsgi --log-file -
