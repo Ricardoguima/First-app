@@ -121,6 +121,9 @@ LOGIN_URL = 'login'
 STATIC_URL = 'static/'
 
 
+import os
+from settings import STATIC_ROOT
+
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
