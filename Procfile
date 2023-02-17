@@ -1,1 +1,1 @@
-web: gunicorn ricardoguima-todo.wsgi --log-file -
+web: gunicorn todo_list.wsgi

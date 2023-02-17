@@ -133,6 +133,7 @@ if os.getcwd() == '/app':
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
     ALLOWED_HOSTS = ['https://git.heroku.com/ricardoguima-todo.git']
+                  
     DEBUG = True
     
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
