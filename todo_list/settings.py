@@ -132,7 +132,7 @@ if os.getcwd() == '/app':
     DATABASES['default'].update(db_from_venv)
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
-    ALLOWED_HOSTS = ['https://git.heroku.com/ricardoguima-todo.git']
+    ALLOWED_HOSTS = ['ricardoguima-todo.herokuapp.com']
                   
     DEBUG = True
     
